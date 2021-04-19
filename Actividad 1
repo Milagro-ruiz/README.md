@@ -1,0 +1,19 @@
+oid setup(){
+size(400,400);
+stroke(10);
+strokeWeight(3);
+fill(30);
+textSize(16);
+text("Esto es un cuadrado verde",10,100);
+fill(0,255,0);
+rect(220,50,150,150);
+
+fill(30);
+textSize(18);
+text("Esto es un ellipse azul",10,300);
+stroke(10);
+strokeWeight(3);
+fill(0,0,255);
+ellipse(300,300,150,150);
+
+}
